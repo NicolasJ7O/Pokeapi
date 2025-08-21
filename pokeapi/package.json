@@ -2,11 +2,15 @@
   "name": "unidad-1",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "live-server src --open=src/index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }
