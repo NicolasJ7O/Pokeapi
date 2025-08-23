@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Pokédex Digital</title>
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+	<main role="main">
+		<header>
+			<h1><span style="color: #b59f3b;">Pokédex</span> <span style="color: #4a4a4a;">Digital</span></h1>
+			<p>Descubre el mundo de los Pokémon</p>
+		</header>
+		<section class="search-box" aria-label="Buscador de Pokémon">
+			<input type="text" id="searchInput" placeholder="Buscar Pokémon..." aria-label="Buscar por nombre o ID">
+			<button id="searchBtn">Buscar</button>
+			<button id="randomBtn">Aleatorio</button>
+			<nav class="types" aria-label="Filtrar por tipo">
+				<button class="type-btn" data-type="all">Todos</button>
+				<button class="type-btn" data-type="fire">Fuego</button>
+				<button class="type-btn" data-type="water">Agua</button>
+				<button class="type-btn" data-type="grass">Planta</button>
+				<button class="type-btn" data-type="electric">Eléctrico</button>
+				<button class="type-btn" data-type="psychic">Psíquico</button>
+				<button class="type-btn" data-type="ice">Hielo</button>
+				<button class="type-btn" data-type="dragon">Dragón</button>
+				<button class="type-btn" data-type="dark">Siniestro</button>
+				<button class="type-btn" data-type="fairy">Hada</button>
+			</nav>
+		</section>
+		<section id="pokemon-card" aria-live="polite"></section>
+	</main>
+	<script type="module" src="index.js"></script> -->
+</body>
+
+</html>
